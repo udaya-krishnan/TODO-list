@@ -1,0 +1,317 @@
+
+* body{
+    background-color: #e6efca;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #006769;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    
+    
+}
+
+.input-container .input>input{
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: #ccfcbb;
+}
+
+.input > input:focus{
+    outline:none;
+    box-shadow:0 6px 13px 0 rgb(157, 222, 139,0.15), 0 3px 14px 0 rgba(0,0,0,0.15) ;
+    
+}
+
+.input-container .input >button{
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    background-color: #E6FF94;
+    box-shadow:0 6px 13px 0 rgb(157, 222, 139,0.15), 0 3px 14px 0 rgba(0,0,0,0.15) ;
+    cursor: pointer;
+    color: #006769;
+    
+}
+
+.input > input::placeholder{
+    color: #40A578;
+    opacity: 1px;
+    padding-left:15px ;
+}
+
+.data-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column-reverse;
+    /* background-color: blue; */
+    /* height: 100vh; */
+}
+
+.input{
+    display: flex;
+    background-color: #40A578;
+    border-radius: 40px;
+    width: 500px;
+    height: 130px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+.list-data{
+    width: 500px;
+    height: 70px;
+    background-color: #9DDE8B;
+    border-radius: 30px ;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1), 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.125em;
+    
+  }
+
+  .btn-icon{
+    border: none;
+    background-color: #9DDE8B;
+    margin-right: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+  }
+  .btn-edit-icon{
+    border: none;
+    background-color: #9DDE8B;
+    margin-right: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+  }
+
+  .check-box{
+    width: 15px;
+    height: 15px;
+    margin: 25px 15px;
+    cursor: pointer;
+  }
+
+  .list-data p {
+    flex: 1; 
+    margin: 10px 10px;
+    overflow: hidden;
+    word-wrap: break-word; 
+  }
+
+
+.edit-input{
+    margin: 10px;
+    margin-right: 100px;
+    /* padding-left: 130px; */
+    width: 300px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: #ccfcbb;
+
+}
+
+.edit-input:focus{
+    outline:none;
+   
+}
+
+.btn-save-icon{
+    border: none;
+    background-color: #9DDE8B;
+    margin-right: 22px;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+
+.icon-save{
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.125em;
+    background-color:#9DDE8B;
+
+}
+
+
+
+.btn-edit-icon {
+    position: relative; /* Ensures the tooltip is positioned relative to the button */
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 50px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -35px; /* Adjust as needed to position the tooltip below the button */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .btn-edit-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+
+
+
+
+
+
+
+  .btn-icon {
+    position: relative; /* Ensures the tooltip is positioned relative to the button */
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 50px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -35px; /* Adjust as needed to position the tooltip below the button */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .btn-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+  
+.btn-save-icon {
+    position: relative; /* Ensures the tooltip is positioned relative to the button */
+  }
+  
+  .tooltip {
+    visibility: hidden;
+    width: 50px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: -35px; /* Adjust as needed to position the tooltip below the button */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .btn-save-icon:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+/* 
+
+.btn-edit-icon .tooltip{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events:none ;
+    white-space: nowrap;
+
+}
+
+.btn-edit-icon .tooltip:hover{
+    opacity: 1;
+} */
+
+/* chat gpt */
+
+/* 
+
+  .list-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    width: 500px; 
+  }
+  
+  .list-data p {
+    flex: 1;
+    margin: 0 10px;
+    overflow: hidden;
+    word-wrap: break-word; 
+  }
+  
+  .list-data .btn-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .list-data .icon {
+    width: 20px;
+    height: 20px;
+  }
+   */
