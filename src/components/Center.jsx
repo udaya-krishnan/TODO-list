@@ -8,7 +8,7 @@ import { json } from "react-router-dom";
 
 
 const  ParentComponent=()=>{
-    const localData=JSON.parse(localStorage.getItem('data'))
+    const localData=JSON.parse(localStorage.getItem('data'))||[]
 
     const [task, setTask] = useState("");
     const [data, setData] = useState(localData);

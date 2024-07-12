@@ -70,8 +70,8 @@ function messFun(){
 
 
 function added(newTask,setData,setTask,data){
-
- const taskExists = data.some(task => newTask.value.toLowerCase() === task.value.toLowerCase());
+  
+    const taskExists = data.some(task => newTask.value.toLowerCase() === task.value.toLowerCase());
 
   if(taskExists){
 
@@ -114,4 +114,7 @@ function added(newTask,setData,setTask,data){
   }
 
 
-}
+  }
+
+ 
+

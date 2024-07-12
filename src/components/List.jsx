@@ -55,7 +55,7 @@ export const ListData = ({data,onDelete,setData}) => {
     return (
      
       <div className="data-container">
-        {data.map((task,index)=>(
+        {data&&data.map((task,index)=>(
            <div className="list-data" key={index} >
        <input
             type="checkbox"
