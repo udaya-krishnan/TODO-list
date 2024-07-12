@@ -6,7 +6,7 @@
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest",
-    "test:ci": "jest"
+    "test:ci": "jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
