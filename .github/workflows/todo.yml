@@ -9,6 +9,6 @@ jobs:
      runs-on: ubontu-latest
      steps:
        - uses: action/checkout@v2
-       - run: npm install && npm start:ci
+       - run: npm install && npm run test:ci
   
     
