@@ -42,7 +42,7 @@ const  ParentComponent=()=>{
 
        
     }
-    console.log("Startingggg")
+    
 
     return (
         <>
